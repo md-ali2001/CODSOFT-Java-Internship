@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Timer;
 
 public class Codsoft_JavaIntern_TASK4 {
 
@@ -20,6 +21,8 @@ public class Codsoft_JavaIntern_TASK4 {
     {
         System.out.println(questions[i]);
         System.out.println(choices[i]);
+
+
        chosenanswers[i]=sc.nextInt();
        if(chosenanswers[i]==correctanswers[i])
        {
